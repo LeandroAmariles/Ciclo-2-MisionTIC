@@ -4,6 +4,7 @@ import modelo.Lider;
 import vista.Informe1;
 import vista.Interface_Principal;
 import vista.informe2;
+import vista.informe3;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -24,6 +25,10 @@ public class controller {
                 inf.listar();
                 inf.setVisible(true);
                 break;
+            case "Informe 3":
+                informe3 info = new informe3();
+                info.listar();
+                info.setVisible(true);
         }
     }
 }
